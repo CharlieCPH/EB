@@ -1,0 +1,18 @@
+{
+  "name": "det_glemte_mord",
+  "version": "1.0.0",
+  "description": "drabet på Pia Susi Pedersen",
+  "author": "Thomas Charles Rohleder",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-header": "^1.7.1",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.4.1"
+  }
+}

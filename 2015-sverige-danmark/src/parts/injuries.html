@@ -1,0 +1,16 @@
+<section class="injuries">
+  <h2>SKADESLISTE</h2>
+    <div class="homeinjuries">
+      <div ng-repeat="injured in home.injuries">
+        <h3 class="homeColor">{{ injured.firstName }} {{ injured.shirtName  }}</h3>
+      </div>
+    </div>
+    <div class="awayinjuries">
+      <div ng-repeat="injured in away.injuries">
+        <h3 class="away-reversed-color">{{ injured.firstName }} {{ injured.shirtName }}</h3>
+      </div>
+    </div>
+    <div class="icon">
+      <img src="http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/8e2f6a50-8971-11e5-87e9-85c09a2228fc.png">
+    </div>
+</section>

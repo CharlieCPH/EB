@@ -1,0 +1,10 @@
+<span class="playershirt" ng-class="player.team">
+  <img ng-src="{{ player.shirt }}" alt="" />
+  <p class="number"  >{{ player.number }}</p>
+  <p class="nametag" >{{ player.shirtName }}</p>
+  <div class="tooltips">
+    <p>{{ player.matches + ' kampe' }}</p>
+    <p>{{ player.nationalGoals +' mål' }}</p>
+    <p>{{ player.age + ' år' }}</p>
+  </div>
+</span>

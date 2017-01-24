@@ -1,0 +1,334 @@
+[{
+  "team": "Sverige",
+  "coach": "Erik Hamrén",
+  "lastFive": [{
+    'var': 'V',
+    'order': 5
+  }, {
+    'var': 'V',
+    'order': 4
+  }, {
+    'var': 'U',
+    'order': 3
+  }, {
+    'var': 'T',
+    'order': 2
+  }, {
+    'var': 'V',
+    'order': 1
+  }],
+  "players": [{
+    "firstName": "Patrik ",
+    "lastName": "Carlgren",
+    "age": 23,
+    "matches": 0,
+    "nationalGoals": 0,
+    "Injuries": 1,
+    "number": 12,
+    "shirtName": "Carlgren",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }, {
+    "firstName": "Andreas ",
+    "lastName": "Isaksson",
+    "age": 34,
+    "matches": 125,
+    "nationalGoals": 0,
+    "Injuries": 1,
+    "number": 1,
+    "shirtName": "Isaksson",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }, {
+    "firstName": "Robin ",
+    "lastName": "Olsen",
+    "age": 25,
+    "matches": 2,
+    "nationalGoals": 0,
+    "Injuries": 1,
+    "number": 23,
+    "shirtName": "Olsen",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }, {
+    "firstName": "Mikael ",
+    "lastName": "Antonsson",
+    "age": 34,
+    "matches": 27,
+    "nationalGoals": 0,
+    "Injuries": 1,
+    "number": 3,
+    "shirtName": "Antonsson",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }, {
+    "firstName": "Pierre ",
+    "lastName": "Bengtsson",
+    "age": 27,
+    "matches": 23,
+    "nationalGoals": 0,
+    "Injuries": 1,
+    "number": 17,
+    "shirtName": "Bengtsson",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }, {
+    "firstName": "Andreas ",
+    "lastName": "Granqvist",
+    "age": 30,
+    "matches": 46,
+    "nationalGoals": 2,
+    "Injuries": 0,
+    "number": 4,
+    "shirtName": "Granqvist",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }, {
+    "firstName": "Erik ",
+    "lastName": "Johanssen",
+    "age": 26,
+    "matches": 6,
+    "nationalGoals": 0,
+    "Injuries": 0,
+    "number": 25,
+    "shirtName": "Johanssen",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }, {
+    "firstName": "Sebastian ",
+    "lastName": "Larsson",
+    "age": 30,
+    "matches": 78,
+    "nationalGoals": 6,
+    "Injuries": 0,
+    "number": 7,
+    "shirtName": "Larsson",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }, {
+    "firstName": "Mikael ",
+    "lastName": "Lustig",
+    "age": 28,
+    "matches": 46,
+    "nationalGoals": 2,
+    "Injuries": 0,
+    "number": 2,
+    "shirtName": "Lustig",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }, {
+    "firstName": "Martin ",
+    "lastName": "Olsson",
+    "age": 27,
+    "matches": 31,
+    "nationalGoals": 5,
+    "Injuries": 0,
+    "number": 5,
+    "shirtName": "Olsson",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }, {
+    "firstName": "Marcus ",
+    "lastName": "Berg",
+    "age": 29,
+    "matches": 33,
+    "nationalGoals": 8,
+    "Injuries": 0,
+    "number": 19,
+    "shirtName": "Berg",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }, {
+    "firstName": "Jimmy ",
+    "lastName": "Durmaz",
+    "age": 26,
+    "matches": 27,
+    "nationalGoals": 2,
+    "Injuries": 0,
+    "number": 21,
+    "shirtName": "Durmaz",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }, {
+    "firstName": "Emil ",
+    "lastName": "Forsberg",
+    "age": 24,
+    "matches": 11,
+    "nationalGoals": 0,
+    "Injuries": 0,
+    "number": 8,
+    "shirtName": "Forsberg",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }, {
+    "firstName": "John ",
+    "lastName": "Guidetti",
+    "age": 23,
+    "matches": 4,
+    "nationalGoals": 0,
+    "Injuries": 0,
+    "number": 15,
+    "shirtName": "Guidetti",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }, {
+    "firstName": "Oscar ",
+    "lastName": "Hiljemark",
+    "age": 23,
+    "matches": 6,
+    "nationalGoals": 1,
+    "Injuries": 0,
+    "number": 12,
+    "shirtName": "Hiljemark",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }, {
+    "firstName": "Zlatan ",
+    "lastName": "Ibrahimovic",
+    "age": 34,
+    "matches": 109,
+    "nationalGoals": 59,
+    "Injuries": 0,
+    "number": 10,
+    "shirtName": "Ibrahimovic",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/f13c3d40-887b-11e5-8fce-112a3fe88c2f.png",
+    "team": "Sverige"
+  }, {
+    "firstName": "Abdulrahman ",
+    "lastName": "Khalili",
+    "age": 23,
+    "matches": 1,
+    "nationalGoals": 0,
+    "Injuries": 0,
+    "number": 18,
+    "shirtName": "Khalili",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }, {
+    "firstName": "Emir ",
+    "lastName": "Kujovic",
+    "age": 27,
+    "matches": 0,
+    "nationalGoals": 0,
+    "Injuries": 0,
+    "number": 16,
+    "shirtName": "Kujovic",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }, {
+    "firstName": "Kim ",
+    "lastName": "Källström",
+    "age": 33,
+    "matches": 123,
+    "nationalGoals": 16,
+    "Injuries": 0,
+    "number": 9,
+    "shirtName": "Källström",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }, {
+    "firstName": "Oscar ",
+    "lastName": "Lewicki",
+    "age": 23,
+    "matches": 6,
+    "nationalGoals": 0,
+    "Injuries": 0,
+    "number": 6,
+    "shirtName": "Lewicki",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }, {
+    "firstName": "Gustav ",
+    "lastName": "Svensson",
+    "age": 28,
+    "matches": 3,
+    "nationalGoals": 0,
+    "Injuries": 0,
+    "number": 11,
+    "shirtName": "Svensson",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }, {
+    "firstName": "Ola ",
+    "lastName": "Toivonen",
+    "age": 29,
+    "matches": 45,
+    "nationalGoals": 9,
+    "Injuries": 0,
+    "number": 20,
+    "shirtName": "Toivonen",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }, {
+    "firstName": "Erkan ",
+    "lastName": "Zengin",
+    "age": 30,
+    "matches": 18,
+    "nationalGoals": 3,
+    "Injuries": 0,
+    "number": 22,
+    "shirtName": "Zengin",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }],
+  "injuries": [{
+    "firstName": "Andreas ",
+    "lastName": "Isaksson",
+    "age": 34,
+    "matches": 125,
+    "nationalGoals": 0,
+    "Injuries": 0,
+    "number": 2,
+    "shirtName": "Isaksson",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }, {
+    "firstName": "Robin ",
+    "lastName": "Olsen",
+    "age": 25,
+    "matches": 2,
+    "nationalGoals": 0,
+    "Injuries": 0,
+    "number": 3,
+    "shirtName": "Olsen",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }, {
+    "firstName": "Mikael ",
+    "lastName": "Antonsson",
+    "age": 34,
+    "matches": 27,
+    "nationalGoals": 0,
+    "Injuries": 0,
+    "number": 4,
+    "shirtName": "Antonsson",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/52231ef0-87b2-11e5-8446-39b787dbbc67.png",
+    "team": "Sverige"
+  }],
+  "substitutes": [{
+    "team": "home",
+    "name": "Lionel Messi",
+    "score": 22,
+    "class": "homeColor"
+  }, {
+    "team": "home",
+    "name": " Daniel Agger",
+    "score": 22,
+    "class": "awayColor"
+  }, {
+    "team": "home",
+    "name": " Perter andersen",
+    "score": 22,
+    "class": "homeColor"
+  }, {
+    "team": "home",
+    "name": " Messi",
+    "score": 22,
+    "class": "awayColor"
+  }, {
+    "team": "home",
+    "name": " Messi",
+    "score": 22,
+    "class": "homeColor"
+  }]
+}]

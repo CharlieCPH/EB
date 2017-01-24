@@ -1,0 +1,32 @@
+<section class="midtscreen">
+  <div class="midbg" ng-style="roundPoint == 0 &&{'background-image':'url('+ wrongImg +')'} || {'background-image':'url(' + correctImg +')'} ">
+    <div clas="top">
+      <span class="page">
+        {{pageNumber}} / {{questions.length}}
+      </span>
+      <span class="point">
+        <p class="score">{{point}}</p>
+        <p class="text-point ">
+          Point</p>
+      </span>
+    </div>
+    <div class="nametag" ng-hide="item.solution == false" ng-if="roundPoint >= 1" ng-repeat="item in questions[pageNumber-1].options">
+      <span>
+        {{item.name}}
+      </span>
+    </div>
+    <div class="centerpoint">
+      <div class="pointcenter" ng-class="{pointsuccess: roundPoint >= '1', pointfail: roundPoint == 0}">
+        <p ng-if="roundPoint >= 1" >
+          +{{roundPoint}}
+        </p>
+        <p style="letter-spacing: 0;" ng-if="roundPoint == 0" >
+         0
+        </p>
+        <p>
+          Point
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

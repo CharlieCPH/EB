@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="App">
+    <head>
+        <meta charset="utf-8">
+        <title>Game of Thrones Quiz</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <meta name="description" content="">
+        <meta name="author" content="ekstrabladet.dk - redaktionelle udviklings team">
+        <meta name="robots" content="noindex"/>
+        <link rel="stylesheet" type="text/css" href="../../helpers/bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../../helpers/css/ebstyles.css">
+        <link rel="stylesheet" type="text/css" href="dist/frontend.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js"></script>
+        <script src="bower_components/ngDraggable/ngDraggable.js"></script>
+        <script src="bower_components/angular-touch/angular-touch.js"></script>
+        <!-- Google Analytics -->
+        <script>
+          window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+          ga('create', 'UA-76475523-1', 'auto');
+          ga('send', 'pageview');
+        </script>
+        <script async src='https://www.google-analytics.com/analytics.js'></script>
+        <!-- End Google Analytics -->
+    </head>
+    <body ng-controller="AppCtrl" oncontextmenu="return false">
+        <header>
+            <h2> Den store Game of Thrones-quiz</h2><h2 class="counter" ng-hide="end" >{{questIndex+1}} <span> ud af  </span> {{ ::imgCount}}</h2>
+        </header>
+        <span id="text-block" ng-hide="end">
+          <p>Hvor godt kender du Game of Thrones? Klik på det rigtige banner for hver karakter!</p>
+        </span>
+
+        <div class="frame">
+            <!-- QUIZ area -->
+            <div id="quiz">
+                <!--quiz area -->
+                <div id="valg" ng-hide="end">
+                    <!-- Categories 1/2-->
+                    <div class="cols" ng-repeat="category in categories | slice:0:4" id="photo{{::category.id}}" ng-drop="true" ng-drop-success="onDropComplete($data,$event)" ng-model="svar" ng-class="[showSvar]">
+                        <div class="svar" ng-click="clickComplete('{{::category}}');">
+
+                            <img ng-drag="false" oncontextmenu="return false" ng-src="{{::banner}}{{::category.id}}.png" class="logo">
+                            <div>
+                                <h2 class="bannertxt">{{::category.overskrift}}</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- category-->
+                    <div  class="cols questPho">
+                        <div  class="questphoto" id="{{question[questIndex].id}}">
+                          <div id="img-cont" ng-style="{'background-image': 'url(' + imagesDir + question[questIndex].img + ')'}">
+                            <!-- success indicator -->
+                            <span class="successornot">
+                                <span id="success" class="glyphicon glyphicon-ok"></span>
+                                <span id="fail" class="glyphicon glyphicon-remove"></span>
+                            </span>
+                            <!-- indicator END -->
+                            <p class="sprgtxt">
+                              Hvilket hus?
+                            </p>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- Categories 2/2-->
+                    <div class="cols" ng-repeat="category in categories | slice:4:8" id="photo{{::category.id}}" ng-drop="true" ng-drop-success="onDropComplete($data,$event)" ng-model="svar" ng-class="[showSvar]">
+                        <div class="svar svar1" ng-click="clickComplete('{{::category}}');">
+                            <img ng-drag="false" oncontextmenu="return false" ng-src="{{::banner}}{{::category.id}}.png" class="logo logo1">
+                            <div style="width:100%;">
+                                <h2 class="bannertxt1">{{::category.overskrift}}</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Endscreen -->
+                <div ng-show="end" id="scoreboard">
+                  <header>
+                    <h2> Den store Game of Thrones-quiz</h2><h2 class="counter" ng-hide="end" >{{questIndex+1}} <span> ud af  </span> {{ ::imgCount}}</h2>
+                  </header>
+                    <span>
+                        <p id="msg">"{{msg}}"</p>
+                        <p id="count">{{droppedObjects.length}} <span class="fintext">ud af</span> {{::imgCount}} <span class="fintext">rigtige</span></p>
+                    </span>
+
+                    <div class="payoff">
+                        <div class="payofflist" ng-repeat="obj in droppedObjects">
+                            <div class="name">
+                                <div  class="payoffimg" ng-style="{'background-image':'url({{imagesDir}}{{obj.img}})'}">
+                                    <div class="correctoverlay"><p>{{obj.name}}</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="payofflist" ng-repeat="obj in nodroppedObjects">
+                            <div class="name nodrop">
+                              <div  class="payoffimg" ng-style="{'background-image':'url({{imagesDir}}{{obj.img}})'}">
+                                    <div class="wrongoverlay"><p>{{obj.name}}</p></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button onClick="history.go(0)" class="retry btn btn-primary">Prøv igen</button>
+                    </div>
+                </div>
+            </div>
+            <script src="app.js"></script>
+            <script src="../../helpers/js/client.js"></script>
+        </body>
+    </html>

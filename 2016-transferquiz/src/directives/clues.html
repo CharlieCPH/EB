@@ -1,0 +1,10 @@
+<div class="clue-container">
+  <span class="holder" ng-repeat="item in questions[pageNumber-1].teams track by $index">
+    <span class="cluebox" id="clue{{item.id}}" ng-class="{'clue-start': revealClue < item.id,'clue-mid': revealClue == item.id,'clue-end-1':revealClue==item.id+1, 'clue-end':revealClue==item.id+2, 'clue-leave':revealClue>=item.id+3 }">
+      <img ng-show="revealClue >= item.id" ng-src="http://static.ekstrabladet.dk/redaktioneludvikling/data/graphics/2016/Fodboldlogos/Store/{{item.img}}2.png"/>
+      <span class="cluetag">
+        <p ng-show="revealClue >= item.id">{{item.club}}</p>
+      </span>
+    </span>
+  </span>
+</div>

@@ -1,0 +1,7 @@
+*.DS_Store
+node_modules
+config.ini
+example-cancel.html
+example-clone.html
+example-reorder.html
+example.html

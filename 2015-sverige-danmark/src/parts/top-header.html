@@ -1,0 +1,45 @@
+<header>
+  <div class="home">
+    <img alt="" class="flag" src="img/flag_sverige.png">
+    <h1>{{ home.team }}</h1>
+    <span>
+      <h3>Træner:</h3>
+      {{ home.coach }}
+    </span>
+  </div>
+  <div class="mid"></div>
+  <div class="away">
+    <img alt="" class="flag" src="img/flag_danmark.png">
+    <h1>{{ away.team }}</h1>
+    <span>
+      <h3>Træner:</h3>
+      {{ away.coach }}
+    </span>
+  </div>
+  <div class="header-bottom">
+    <div class="scores-left">
+      <span class="homaB" ng-repeat="score in home.lastFive | orderBy:'order'">
+        <div class="top5 homeA" ng-class="score.var" id="home-stat-{{score.order}}">{{score.var}}</div>
+      </span>
+    </div>
+
+    <div class="scores-right">
+      <span class="awayB" ng-repeat="score in away.lastFive | orderBy:'order'">
+        <div class="top5 awayA loose" ng-class="score.var" id="away-stat-{{score.order}}" >{{score.var}}</div>
+      </span>
+    </div>
+  </div>
+  <div id="clockdiv">
+    <!-- <img src="img/baand.png" alt="" /> -->
+    <span class="tid">
+      <span class="hours"></span><span>:</span><span class="minutes"></span><span>:</span><span class="seconds"></span>
+    </span>
+  </div>
+  <div class="headerRubrik">
+    <span class="">
+      <b>TV:</b>
+      Se kampen på
+      <b>Kanal 5</b>
+      Lørdag den 14.nov kl 20.45</span>
+  </div>
+</header>

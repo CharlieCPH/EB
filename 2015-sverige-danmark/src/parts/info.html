@@ -1,0 +1,100 @@
+<section class="teaminfo">
+  <h2>info om holdene</h2>
+  <!--Info Menu -->
+  <div class="info-ctrl">
+    <span class="switch national-match" ng-class="{'switch-active': infobtn == '0' }" ng-click="infobtn = 0; testHeight()">Landsholdskampe</span>
+    <span class="switch national-goals" ng-class="{'switch-active': infobtn == '1' }" ng-click="infobtn = 1 ; testHeight()">Landskampsmål</span>
+    <span class="switch age" ng-class="{'switch-active': infobtn == '2' }" ng-click="infobtn = 2 ; testHeight()">Alder</span>
+  </div>
+
+  <!--Info Content -->
+  <div class="matches" id="matches">
+    <div class="col-xs-12 intervals " >
+      <h3 class="col-xs-2" ng-show="infobtn == 0">0-9</h3>
+      <h3 class="col-xs-2" ng-show="infobtn == 1">0-5</h3>
+      <h3 class="col-xs-2" ng-show="infobtn == 2">-19</h3>
+      <div class="col-xs-10 shirt-align">
+        <span ng-repeat="player in allPlayers | orderBy :'matches'" ng-show="infobtn == 0">
+          <shirt ng-if="player.matches <= 9"></shirt>
+        </span>
+        <span ng-repeat="player in allPlayers | orderBy :'nationalGoals'" ng-show="infobtn == 1">
+          <shirt ng-if="player.nationalGoals <= 5"></shirt>
+        </span>
+        <span ng-repeat="player in allPlayers | orderBy :'age'" ng-show="infobtn == 2">
+          <shirt ng-if="player.age <= 19"></shirt>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-xs-12  intervals " >
+      <h3 class="col-xs-2" ng-show="infobtn == 0">10-19</h3>
+      <h3 class="col-xs-2" ng-show="infobtn == 1">6-10</h3>
+      <h3 class="col-xs-2" ng-show="infobtn == 2">20-23</h3>
+      <div class="col-xs-10 shirt-align">
+        <span ng-repeat="player in allPlayers | orderBy :'matches'" ng-show="infobtn == 0">
+          <shirt ng-if="player.matches >= 10 && player.matches <= 19"></shirt>
+        </span>
+        <span ng-repeat="player in allPlayers | orderBy :'nationalGoals'" ng-show="infobtn == 1">
+          <shirt ng-if="player.nationalGoals >= 6 && player.nationalGoals <= 10"></shirt>
+        </span>
+        <span ng-repeat="player in allPlayers | orderBy :'age'" ng-show="infobtn == 2">
+          <shirt ng-if="player.age >= 20 && player.age <= 23"></shirt>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-xs-12  intervals " >
+      <h3 class="col-xs-2" ng-show="infobtn == 0">20-29</h3>
+      <h3 class="col-xs-2" ng-show="infobtn == 1">11-15</h3>
+      <h3 class="col-xs-2" ng-show="infobtn == 2">24-27</h3>
+      <div class="col-xs-10 shirt-align">
+        <span ng-repeat="player in allPlayers | orderBy :'matches'" ng-show="infobtn == 0">
+          <shirt ng-if="player.matches >= 20 && player.matches <= 29"></shirt>
+        </span>
+        <span ng-repeat="player in allPlayers | orderBy :'nationalGoals'" ng-show="infobtn == 1">
+          <shirt ng-if="player.nationalGoals >= 11 && player.nationalGoals <= 15"></shirt>
+        </span>
+        <span ng-repeat="player in allPlayers | orderBy :'age'" ng-show="infobtn == 2">
+          <shirt ng-if="player.age >= 24 && player.age <= 27"></shirt>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-xs-12  intervals " >
+      <h3 class="col-xs-2" ng-show="infobtn == 0">30-39</h3>
+      <h3 class="col-xs-2" ng-show="infobtn == 1">16-20</h3>
+      <h3 class="col-xs-2" ng-show="infobtn == 2">28-31</h3>
+      <div class="col-xs-10 shirt-align">
+        <span ng-repeat="player in allPlayers | orderBy :'matches'" ng-show="infobtn == 0">
+          <shirt ng-if="player.matches >= 30 && player.matches <= 39"></shirt>
+        </span>
+        <span ng-repeat="player in allPlayers | orderBy :'nationalGoals'" ng-show="infobtn == 1">
+          <shirt ng-if="player.nationalGoals >= 16 && player.nationalGoals <= 20"></shirt>
+        </span>
+        <span ng-repeat="player in allPlayers | orderBy :'age'" ng-show="infobtn == 2">
+          <shirt ng-if="player.age >= 28 && player.age <= 31"></shirt>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-xs-12  intervals " >
+      <h3 class="col-xs-2" ng-show="infobtn == 0">40+</h3>
+      <h3 class="col-xs-2" ng-show="infobtn == 1">21+</h3>
+      <h3 class="col-xs-2" ng-show="infobtn == 2">32+</h3>
+      <div class="col-xs-10 shirt-align">
+        <span ng-repeat="player in allPlayers | orderBy :'matches'" ng-show="infobtn == 0">
+          <shirt ng-if="player.matches >= 40"></shirt>
+        </span>
+        <span ng-repeat="player in allPlayers | orderBy :'nationalGoals'" ng-show="infobtn == 1">
+          <shirt ng-if="player.nationalGoals >= 21"></shirt>
+        </span>
+        <span ng-repeat="player in allPlayers | orderBy :'age'" ng-show="infobtn == 2">
+          <shirt ng-if="player.age >= 32"></shirt>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div style="clear: both;"></div> <!-- Clear the float -->
+
+
+</section>

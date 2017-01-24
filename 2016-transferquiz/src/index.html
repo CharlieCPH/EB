@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>transferquiz</title>
+  <script src="http://interactive.ekstrabladet.dk/helpers/bower_components/angular/angular.min.js"></script>
+  <script src="http://ekstrabladet.dk/template/v5-6/shared/js/modules/comscore/comscore.js" type="text/javascript"></script>
+  <script  ebComscore.initializeComscore('16785783', 'jppol', 'ebmedier', 'ekstrabladet') ></script>
+
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <link rel="stylesheet" href="app.min.css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="../src/styles/animate.css" media="screen" charset="utf-8">
+
+</head>
+<body ng-app="App" ng-controller="AppCtrl">
+    <!-- This quiz was inspired by www.transfertrail.com -->
+  <start  id="startscreen" ng-class="{'in-view': view == 'startscreen','out-view':view!='startscreen'}"  ng-show="view =='startscreen'"class="screens animation"></start>
+  <questions id="firstscreen" ng-show="view =='quizscreen'" class="screens animation" ></questions>
+  <midscreen id="secondscreen"  ng-show="view =='midscreen'" ng-class="{'in-view': view == 'midscreen','preview':view!='midscreen'}" class="screens animation"></midscreen>
+  <end id="endscreen" ng-show="view=='finalscreen'" class='screens elm'></end>
+
+  <script src="app.min.js" charset="utf-8"></script>
+  <script src="//interactive.ekstrabladet.dk/helpers/js/client.js" charset="utf-8"></script>
+</body>
+</html>

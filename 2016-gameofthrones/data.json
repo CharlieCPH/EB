@@ -1,0 +1,181 @@
+[
+  {
+    "id":"Stark",
+    "overskrift":"Stark",
+    "Tekst":"Winter is Coming",
+    "img":"ed.png"
+  },
+  {
+    "id":"Lannister",
+    "overskrift":"Lannister",
+    "Tekst":"A Lannister Always Pays His Debts",
+    "img":"tyrion.png"
+  },
+  {
+    "id":"Baratheon",
+    "overskrift":"Baratheon",
+    "Tekst":"Ours is the Fury",
+    "img":"robert.png"
+  },
+  {
+    "id":"Bolton",
+    "overskrift":"Bolton",
+    "Tekst":"Our Blades Are Sharp",
+    "img":"bolten.png"
+  },
+  {
+    "id":"Targaryen",
+    "overskrift":"Targaryen",
+    "Tekst":"Fire and Blood",
+    "img":"deanerys.png"
+  },
+  {
+    "id":"Martell",
+    "overskrift":"Martell",
+    "Tekst":"Unbowed, Unbent, Unbroken",
+    "img":"doran.png"
+  },
+  {
+    "id":"Tyrell",
+    "overskrift":"Tyrell",
+    "Tekst":"Growing Strong",
+    "img":"tyrion.png"
+  },
+  {
+    "id":"Greyjoy",
+    "overskrift":"Greyjoy",
+    "Tekst":"We Do Not Sow.",
+    "img":"theon.png"
+  },
+  {
+    "id":"Wilderlings",
+    "overskrift":"Wilderlings",
+    "Tekst":"We kneel for no one",
+    "img":"kingbeyound.png"
+  },
+  {
+    "id":"Stark",
+    "overskrift":"Stark",
+    "Tekst":"Winter is Coming",
+    "img":"bran.jpg",
+    "FIELD5":"x"
+  },
+  {
+    "id":"Stark",
+    "overskrift":"Stark",
+    "Tekst":"Winter is Coming",
+    "img":"catelyn.png"
+  },
+  {
+    "id":"Stark",
+    "overskrift":"Stark",
+    "Tekst":"Winter is Coming",
+    "img":"jonsnow.png"
+  },
+  {
+    "id":"Stark",
+    "overskrift":"Stark",
+    "Tekst":"Winter is Coming",
+    "img":"rob.png"
+  },
+  {
+    "id":"Stark",
+    "overskrift":"Stark",
+    "Tekst":"Winter is Coming",
+    "img":"sansa.png"
+  },
+  {
+    "id":"Stark",
+    "overskrift":"Stark",
+    "Tekst":"Winter is Coming",
+    "img":"arya.jpg ",
+    "FIELD5":"x"
+  },
+  {
+    "id":"Lannister",
+    "overskrift":"Lannister",
+    "Tekst":"\"Hear Me Roar!\" (official) - \"A Lannister Always Pays His Debts\"(common saying)",
+    "img":"cersei.png"
+  },
+  {
+    "id":"Lannister",
+    "overskrift":"Lannister",
+    "Tekst":"\"Hear Me Roar!\" (official) - \"A Lannister Always Pays His Debts\"(common saying)",
+    "img":"jaime.png"
+  },
+  {
+    "id":"Lannister",
+    "overskrift":"Lannister",
+    "Tekst":"\"Hear Me Roar!\" (official) - \"A Lannister Always Pays His Debts\"(common saying)",
+    "img":"tywin.png"
+  },
+  {
+    "id":"Lannister",
+    "overskrift":"Lannister",
+    "Tekst":"\"Hear Me Roar!\" (official) - \"A Lannister Always Pays His Debts\"(common saying)",
+    "img":"lancel.jpg",
+    "FIELD5":"x"
+  },
+  {
+    "id":"Baratheon",
+    "overskrift":"Baratheon",
+    "Tekst":"Ours is the Fury",
+    "img":"joffrey.png"
+  },
+  {
+    "id":"Baratheon",
+    "overskrift":"Baratheon",
+    "Tekst":"Ours is the Fury",
+    "img":"renly.png"
+  },
+  {
+    "id":"Baratheon",
+    "overskrift":"Baratheon",
+    "Tekst":"Ours is the Fury",
+    "img":"stannis.png"
+  },
+  {
+    "id":"Baratheon",
+    "overskrift":"Baratheon",
+    "Tekst":"Ours is the Fury",
+    "img":"shireen.png"
+  },
+  {
+    "id":"Baratheon",
+    "overskrift":"Baratheon",
+    "Tekst":"Ours is the Fury",
+    "img":"red_quen.jpg",
+    "FIELD5":"x"
+  },
+  {
+    "id":"Baratheon",
+    "overskrift":"Baratheon",
+    "Tekst":"Ours is the Fury",
+    "img":"marcella.png"
+  },
+  {
+    "id":"Targaryen",
+    "overskrift":"Targaryen",
+    "Tekst":"Fire and Blood",
+    "img":"viserys.png"
+  },
+  {
+    "id":"Martell",
+    "overskrift":"Martell",
+    "Tekst":"Unbowed, Unbent, Unbroken",
+    "img":"oberyn.png"
+  },
+  {
+    "id":"Tyrell",
+    "overskrift":"Tyrell",
+    "Tekst":"Growing Strong",
+    "img":"olenna.png"
+  },
+  {
+    "id":"Tyrell",
+    "overskrift":"Tyrell",
+    "Tekst":"Growing Strong",
+    "img":"loras.png",
+    "FIELD5":"x"
+  }
+]

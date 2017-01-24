@@ -1,0 +1,10 @@
+/* Import fonts and colors */
+@import "fonts.scss";
+@import "colors.scss";
+
+/* Import resetter */
+@import "reset.scss";
+
+/* Import app styles */
+@import "desktop.scss";
+@import "mobile.scss";

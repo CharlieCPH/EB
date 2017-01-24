@@ -1,0 +1,334 @@
+[{
+  "team": "Danmark",
+  "coach": "Morten Olsen",
+  "lastFive": [{
+    'var': 'T',
+    'order': 1
+  }, {
+    'var': 'T',
+    'order': 2
+  }, {
+    'var': 'U',
+    'order': 3
+  }, {
+    'var': 'U',
+    'order': 4
+  }, {
+    'var': 'V',
+    'order': 5
+  }],
+  "players": [{
+    "firstName": "Kasper ",
+    "lastName": "Schmeichel",
+    "age": 29,
+    "matches": 16,
+    "nationalGoals": 0,
+    "Injuries": 0,
+    "number": 1,
+    "shirtName": "Schmeichel",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }, {
+    "firstName": "Stephan ",
+    "lastName": "Andersen",
+    "age": 33,
+    "matches": 30,
+    "nationalGoals": 0,
+    "Injuries": 0,
+    "number": 16,
+    "shirtName": "Andersen",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }, {
+    "firstName": "Jonas ",
+    "lastName": "Lössl",
+    "age": 26,
+    "matches": 0,
+    "nationalGoals": 0,
+    "Injuries": 0,
+    "number": 22,
+    "shirtName": "Lössl",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }, {
+    "firstName": "Daniel ",
+    "lastName": "Wass",
+    "age": 26,
+    "matches": 14,
+    "nationalGoals": 0,
+    "Injuries": 0,
+    "number": 2,
+    "shirtName": "Wass",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }, {
+    "firstName": "Riza ",
+    "lastName": "Durmisi",
+    "age": 21,
+    "matches": 5,
+    "nationalGoals": 0,
+    "Injuries": 0,
+    "number": 5,
+    "shirtName": "Durmisi",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }, {
+    "firstName": "Simon ",
+    "lastName": "Kjær",
+    "age": 26,
+    "matches": 54,
+    "nationalGoals": 2,
+    "Injuries": 0,
+    "number": 3,
+    "shirtName": "Kjær",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }, {
+    "firstName": "Andreas ",
+    "lastName": "Christensen",
+    "age": 19,
+    "matches": 2,
+    "nationalGoals": 0,
+    "Injuries": 0,
+    "number": 23,
+    "shirtName": "Christensen",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }, {
+    "firstName": "Lars ",
+    "lastName": "Jacobsen",
+    "age": 36,
+    "matches": 79,
+    "nationalGoals": 1,
+    "Injuries": 0,
+    "number": 6,
+    "shirtName": "Jacobsen",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }, {
+    "firstName": "Daniel ",
+    "lastName": "Agger",
+    "age": 30,
+    "matches": 71,
+    "nationalGoals": 12,
+    "Injuries": 0,
+    "number": 4,
+    "shirtName": "Agger",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/c50b4400-8871-11e5-8fce-112a3fe88c2f.png",
+    "team": "Danmark"
+  }, {
+    "firstName": "Jannik ",
+    "lastName": "Vestergaard",
+    "age": 23,
+    "matches": 4,
+    "nationalGoals": 0,
+    "Injuries": 0,
+    "number": 12,
+    "shirtName": "Vestergaard",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }, {
+    "firstName": "Simon ",
+    "lastName": "Poulsen",
+    "age": 31,
+    "matches": 31,
+    "nationalGoals": 0,
+    "Injuries": 0,
+    "number": 21,
+    "shirtName": "Poulsen",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }, {
+    "firstName": "William ",
+    "lastName": "Kvist",
+    "age": 30,
+    "matches": 60,
+    "nationalGoals": 2,
+    "Injuries": 0,
+    "number": 7,
+    "shirtName": "Kvist",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }, {
+    "firstName": "Thomas ",
+    "lastName": "Kahlenberg",
+    "age": 32,
+    "matches": 46,
+    "nationalGoals": 5,
+    "Injuries": 0,
+    "number": 15,
+    "shirtName": "Kahlenberg",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }, {
+    "firstName": "Michael",
+    "lastName": " Krohn-Dehli",
+    "age": 32,
+    "matches": 55,
+    "nationalGoals": 6,
+    "Injuries": 0,
+    "number": 9,
+    "shirtName": " Krohn-Dehli",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }, {
+    "firstName": "Thomas ",
+    "lastName": "Delaney",
+    "age": 24,
+    "matches": 4,
+    "nationalGoals": 0,
+    "Injuries": 0,
+    "number": 19,
+    "shirtName": "Delaney",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }, {
+    "firstName": "Jakob ",
+    "lastName": "Poulsen",
+    "age": 32,
+    "matches": 35,
+    "nationalGoals": 2,
+    "Injuries": 0,
+    "number": 8,
+    "shirtName": "Poulsen",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }, {
+    "firstName": "Christian ",
+    "lastName": "Eriksen",
+    "age": 23,
+    "matches": 55,
+    "nationalGoals": 6,
+    "Injuries": 0,
+    "number": 10,
+    "shirtName": "Eriksen",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }, {
+    "firstName": "Pierre-Emile ",
+    "lastName": "Højbjerg",
+    "age": 20,
+    "matches": 11,
+    "nationalGoals": 1,
+    "Injuries": 0,
+    "number": 23,
+    "shirtName": "Højbjerg",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }, {
+    "firstName": "Martin ",
+    "lastName": "Braithwaite",
+    "age": 24,
+    "matches": 11,
+    "nationalGoals": 1,
+    "Injuries": 1,
+    "number": 19,
+    "shirtName": "Braithwaite",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }, {
+    "firstName": "Nicolai ",
+    "lastName": "Jørgensen",
+    "age": 25,
+    "matches": 12,
+    "nationalGoals": 0,
+    "Injuries": 1,
+    "number": 20,
+    "shirtName": "Jørgensen",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }, {
+    "firstName": "Viktor ",
+    "lastName": "Fischer",
+    "age": 21,
+    "matches": 7,
+    "nationalGoals": 1,
+    "Injuries": 1,
+    "number": 14,
+    "shirtName": "Fischer",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }, {
+    "firstName": "Nicklas ",
+    "lastName": "Bendtner",
+    "age": 27,
+    "matches": 72,
+    "nationalGoals": 29,
+    "Injuries": 1,
+    "number": 11,
+    "shirtName": "Bendtner",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }, {
+    "firstName": "Yussuf ",
+    "lastName": "Poulsen",
+    "age": 21,
+    "matches": 9,
+    "nationalGoals": 1,
+    "Injuries": 1,
+    "number": 18,
+    "shirtName": "Poulsen",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }, {
+    "firstName": "Morten ",
+    "lastName": "Duncan' Rasmussen",
+    "age": 30,
+    "matches": 10,
+    "nationalGoals": 3,
+    "Injuries": 1,
+    "number": 17,
+    "shirtName": "Duncan ",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }],
+  "injuries": [{
+    "firstName": "Yussuf ",
+    "lastName": "Poulsen",
+    "age": 21,
+    "matches": 9,
+    "nationalGoals": 1,
+    "Injuries": 0,
+    "number": 23,
+    "shirtName": "Poulsen",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }, {
+    "firstName": "Morten ",
+    "lastName": "Duncan' Rasmussen",
+    "age": 30,
+    "matches": 10,
+    "nationalGoals": 3,
+    "Injuries": 0,
+    "number": 24,
+    "shirtName": "Duncan ",
+    "shirt": "http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/11e94e20-8390-11e5-be7b-954ea56d37f6.png",
+    "team": "Danmark"
+  }],
+  "substitutes": [{
+    "team": "home",
+    "name": "Lionel Messi",
+    "score": 22,
+    "class": "homeColor"
+  }, {
+    "team": "home",
+    "name": " Daniel Agger",
+    "score": 22,
+    "class": "awayColor"
+  }, {
+    "team": "home",
+    "name": " Perter andersen",
+    "score": "22",
+    "class": "homeColor"
+  }, {
+    "team": "home",
+    "name": " Messi",
+    "score": "22",
+    "class": "awayColor"
+  }, {
+    "team": "home",
+    "name": " Messi",
+    "score": "22",
+    "class": "homeColor"
+  }]
+}]

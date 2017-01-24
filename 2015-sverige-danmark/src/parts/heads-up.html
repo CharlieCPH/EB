@@ -1,0 +1,44 @@
+<section class="heads-up">
+    <div class="headS">
+      <img alt="" class="baand" src="img/baand2.png">
+      <h2 class="baandtxt">Kampen i kampen</h2>
+    </div>
+    <div class="matchInMatch">
+      <div class="homeColor col-xs-6 statcont">
+        <p>{{ home.players[15].firstName }}</p>
+        <h2 class="name">{{ home.players[15].lastName }}</h2>
+        <p>{{ home.players[15].age }}
+          ÅR</p>
+        <img alt="" class="homeImg" src="http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/0585e6e0-893d-11e5-876f-f3a7c07f9a1d.png" >
+      </div>
+      <div class="away-reversed-color col-xs-6 statcont">
+        <p>{{ away.players[21].firstName }}</p>
+        <h2 class="name">{{ away.players[21].lastName }}</h2>
+        <p>{{ away.players[21].age }}
+          ÅR</p>
+        <img alt="" class="awayImg" src="http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2015/1ec84580-893d-11e5-876f-f3a7c07f9a1d.png" >
+      </div>
+      <div class="playerstats">
+        <div class="matchstats">
+          <h3>Landskampe</h3>
+          <p class="home-reversed-color statboks left home-match-stats ">{{ home.players[15].matches }}</p>
+          <p class="awayColor statboks right away-match-stats">{{ away.players[21].matches }}</p>
+        </div>
+        <div class="matchstats">
+          <h3>Landskampsmål</h3>
+          <p class="home-reversed-color statboks left home-goal-stats">{{ home.players[15].nationalGoals }}</p>
+          <p class="awayColor statboks right away-goal-stats">{{ away.players[21].nationalGoals }}</p>
+        </div>
+        <div class="matchstats">
+          <h3>Klubkampe i denne sæson</h3>
+          <p class="home-reversed-color statboks left home-assists-stats">13</p>
+          <p class="awayColor statboks right away-assists-stats">15</p>
+        </div>
+        <div class="matchstats">
+          <h3>Klubmål i denne sæson</h3>
+          <p class="home-reversed-color statboks left home-season-goals-stats">9</p>
+          <p class="awayColor statboks right away-season-goals-stats">4</p>
+        </div>
+      </div>
+    </div>
+  </section>

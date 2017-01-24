@@ -1,0 +1,313 @@
+/*
+** https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+*/
+/* ----------- iPhone 4 and 4S ----------- */
+@media(max-width:450px) {
+  .teaminfo .intervals {
+    width: 100% !important;
+  }
+  header h1 {
+    font-size: 20px;
+  }
+  .tid {
+    top: -57px;
+  }
+  .last-five h3 {
+    font-size: 18px;
+    width: 100px;
+  }
+  .intervals h3 {
+    float: left;
+    width: 100%;
+    height: 100px;
+    margin: 0 0 0 -20px;
+    padding: 40px 20px;
+    font-size: 36px;
+    background-color: transparent;
+  }
+  .teaminfo .switch {
+    width: 100%;
+  }
+  .last-five div {
+    min-height: 95px;
+  }
+  .headerRubrik {
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    padding-top: 9px;
+  }
+}
+@media(max-width:570px) and (min-width:450px) {
+  .teaminfo .intervals {
+    width: 100% !important;
+  }
+  header h1 {
+    font-size: 20px;
+  }
+  .tid {
+    top: -57px;
+  }
+  .last-five h3 {
+    font-size: 27px;
+  }
+  .intervals h3 {
+    float: left;
+    width: 100%;
+    height: 100px;
+    margin: 0 0 0 -20px;
+    padding: 40px 20px;
+    font-size: 20px;
+    background-color: transparent;
+  }
+  .teaminfo .switch {
+    width: 100%;
+  }
+  .last-five div {
+    min-height: 95px;
+  }
+  .baandtxt {
+    font-size: 19px !important;
+    width: 68%;
+  }
+  .shirt-align {
+    left: -10px;
+    padding: 10px 0;
+  }
+  .headerRubrik {
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    padding-top: 9px;
+  }
+}
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .shirt-align {
+    left: -10px;
+    padding: 10px 0;
+  }
+  .teaminfo .intervals {
+    width: 100%;
+  }
+  .lineup-mobile {
+    display: inline-block;
+  }
+  .lineup-desktop {
+    display: none;
+  }
+  .matchInMatch h2 {
+    font-size: 20px;
+  }
+  .baandtxt {
+    font-size: 14px !important;
+    width: 68%;
+  }
+  .top5 {
+    font-size: 10px;
+    margin-left: 0;
+  }
+  header h1 {
+    font-size: 20px;
+  }
+  .tid {
+    top: -57px;
+  }
+  .last-five h3 {
+    font-size: 18px;
+  }
+  .intervals h3 {
+    float: left;
+    width: 100%;
+    height: 100px;
+    margin: 0 0 0 -20px;
+    padding: 40px 20px;
+    font-size: 36px;
+    background-color: transparent;
+  }
+  .teaminfo .switch {
+    width: 100%;
+  }
+  .stadium .icontext {
+    width: 33.333333.33333333333%;
+    float: left;
+    margin-top: 398px;
+    background-color: rgba(255,255,255,.8);
+    font-size: 11px;
+    padding: 5px;
+  }
+  .stadium .icontext p {
+    line-height: 15px;
+    font-size: 11px;
+  }
+  .stadium .icontext span {
+    max-width: 30%;
+    margin: auto;
+    padding: 3px;
+  }
+  .heads-up .baand {
+    top: 23px;
+  }
+  .heads-up .baandtxt {
+    position: relative;
+    top: -54px!important;
+  }
+  .heads-up .baandtxt1 {
+    position: relative;
+    top: -49px;
+    font-size: 12px;
+  }
+  .section-last .headS {
+    margin-bottom: -44px;
+  }
+  .last-five .home-team p {
+    padding-right: 10px;
+    text-align: left;
+    margin-right: 0;
+    width: 100%;
+    font-size: 11px;
+  }
+  .last-five .away-team p {
+    padding-right: 10px;
+    text-align: right;
+    margin-right: 0;
+    width: 100%;
+    font-size: 11px;
+  }
+  .flag {
+    width: 20px;
+    height: 20px;
+  }
+  .away h1 {
+    right: 20px;
+    position: absolute;
+    z-index: 501;
+    top: 27px;
+  }
+  .away h3 {
+    text-align: right;
+  }
+  .home h1 {
+    left: 20px;
+    position: absolute;
+    z-index: 501;
+    top: 27px;
+  }
+  header {
+    h3 {
+      font-size: 19px;
+      margin: 20px 0 0;
+    }
+    .headerRubrik {
+      width: 100%;
+      height: 40px;
+      font-size: 14px;
+      padding-top: 9px;
+    }
+  }
+}
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+
+}
+
+/* ----------- iPad mini ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+
+}

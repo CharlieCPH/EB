@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html class='ng-app' lang="en" ng-app="App">
+  <head>
+    <meta charset="utf-8">
+    <title>Friadgang</title>
+    <meta content="width=device-width,initial-scale=1" name="viewport"/>
+    <meta content="" name="description">
+    <meta content="ekstrabladet.dk - redaktionelle udviklings team" name="author">
+    <meta content="noindex" name="robots"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">    <link href="http://interactive.ekstrabladet.dk/helpers/css/ebstyles.css" rel="stylesheet" type="text/css">
+    <link href="dist/frontend.css" rel="stylesheet" type="text/css">
+    <script src="http://interactive.ekstrabladet.dk/helpers/bower_components/angular/angular.min.js"></script>
+    <script src="http://ekstrabladet.dk/template/v5-6/shared/js/modules/comscore/comscore.js" type="text/javascript"></script>
+    <script>  ebComscore.initializeComscore('16785783', 'jppol', 'ebmedier', 'ekstrabladet') </script>
+  </head>
+
+  <body class="bodydiv" ng-controller="AppCtrl" style="margin:0;display:inline-block;">
+
+    <div class="headerDiv">
+      <div class="overskrift">
+        <img class="lock" src="http://interactive.ekstrabladet.dk/features/2015-friadgang/img/lock.png">
+        <p class="hashtagfri">#FRIADGANG
+        </p>
+<!--                 <p class="underoverskrift">Har du lagt privatlivet frit ud?</p> -->
+<!--       <p class="tjek">TJEK DIN IP</p>  -->
+      </div>
+    </div>
+    <div class="content">
+      <div id="textbox">
+        <div class="startpage" ng-hide="switcher==3">
+          <p><strong style="color:red;">Ekstra Bladet</strong> har udviklet et program, som kan afsløre, om din computer giver uønskede gæster fri adgang til din printer, netværksharddisk eller andre elektroniske enheder.<br>
+            <span style="color:lightgreen;">Over 300.000 danskere har taget testen. Vi har valgt at lukke projektet, da den tilgængelige data ikke længere er aktuel nok. Vi overvejer at gentage projektet med en ny frisk scanning. Fri Adgang vandt i 2015 FUJ-prisen for Fremragende Undersøgende Journalistik.</span></p>
+            <div class="addcover">
+              <a href="http://ekstrabladet.dk/nyheder/friadgang/" target="_parent">
+                <div class="addbox">
+                  <img class="planet" src="http://static.ekstrabladet.dk/redaktioneludvikling/data/dropper/2016/6df9d3b0-1823-11e6-9977-5561a4ec64b5.png">
+                  <div class="textwrap">
+                    <h3>Friadgang:</h3>
+                    <h2>Ekstra Bladet sætter fokus på digitale farer</h2>
+                  </div>
+                </div>
+              </a>
+              <a href="http://ekstrabladet.dk/a/5698949" target="_parent">
+                <div class="addbox">
+                  <img class="planet" src="http://interactive.ekstrabladet.dk/features/2015-friadgang/img/planet.png">
+                  <div class="textwrap">
+                    <h3>Guide:</h3>
+                    <h2>10 tips til bedre IT-sikkerhed</h2>
+                  </div>
+                </div>
+              </a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center;">
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!-- <script src="analytics.js"></script> -->
+    <script src="app.js"></script>
+    <script src="../../helpers/js/client.js"></script>
+    <script src="http://b.scorecardresearch.com/c2/16785783/cs.js" type="text/javascript" />
+
+  </body>
+</html>

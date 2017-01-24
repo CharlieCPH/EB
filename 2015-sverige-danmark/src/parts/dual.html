@@ -1,0 +1,22 @@
+<section class="showdown">
+      <h1 class="sectionheader">De indbyrdes opgør</h1>
+      <h2>Alle turneringer</h2>
+      <div id="chart">
+        <g>
+          <path></path>
+          <path></path>
+          <path></path>
+        </g>
+      </div>
+      <div class="stats">
+        <ul>
+          <li>{{ home.team }}</li>
+          <li>{{ away.team }}</li>
+          <li>Uafgjort</li>
+        </ul>
+    </div>
+    <h2 class="topscores">Topscorerne</h2>
+    <div class="topscores" ng-repeat="top in topscore">
+      <h3 class="topscore" ng-class="top.class" ng-style="{ 'width': caclwidth(42, top.score) }"><span>{{ top.name }}</span> <span class="topscore-numb">{{ top.score }}</span></h3>
+    </div>
+</section>

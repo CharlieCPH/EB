@@ -1,0 +1,41 @@
+<section class="section-last">
+  <div class="">
+
+  <!-- <img alt="" class="baand" src="img/baand2.png"> -->
+  <h2 class="sectionheader-last-five" >Seneste 5 kampe</h2>
+</div>
+
+</div>
+<div ng-repeat="five in lastFive ">
+  <div class="last-five">
+    <span class="last-five-headers" ng-class="five.header">{{ five.type }}:
+      {{ five.date }}</span>
+    <span class="gray-area">
+      <div class="home-team">
+        <p ng-repeat="goals in five.homeGoals track by $index">
+          {{ goals.time }}
+          -
+          <b>
+            {{ goals.player }}
+          </b>
+        </p>
+      </div>
+
+      <div>
+        <img alt="" class="home-flag" ng-src="img/flag_{{ five.home }}.png">
+        <img alt="" class="away-flag" ng-src="img/flag_{{ five.away }}.png">
+        <h3>{{ five.score }}</h3>
+      </div>
+
+      <div class="away-team">
+        <p ng-if="goal.team != home" ng-repeat="goals in five.awayGoals track by $index">
+          <b>
+            {{ goals.player }}
+          </b>
+          -
+          {{ goals.time }}
+        </p>
+      </div>
+    </span>
+  </div>
+</section>

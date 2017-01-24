@@ -1,0 +1,890 @@
+/*
+** https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+*/
+/* ----------- iPhone 4 and 4S ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+
+  html,body{
+    width:100vw;
+    overflow-x: hidden;
+  }
+  .start-text{
+    font-size:15px;
+  }
+  .holder {
+    transform: translate3d(10px,0,0);
+    margin-top:15px;
+  }
+  .timer div {
+    width: 23%;
+  }
+  #firstscreen {
+    background-image: url(http://static.ekstrabladet.dk/redaktioneludvikling/data/graphics/2016/Fodboldlogos/background/transferday_bg-4.jpeg);
+    background-size: cover !important;
+    height: 480px;
+  }
+  #endscreen {
+    background-image: url(http://static.ekstrabladet.dk/redaktioneludvikling/data/graphics/2016/Fodboldlogos/background/transferday_bg-4.jpeg);
+  }
+  .cluebox {
+    height: 100px;
+    width: 100px;
+    margin: 50px 0;
+    transition: 1s linear;
+    float: left;
+    opacity: 1;
+    top: 0;
+  }
+
+  .clue-container {
+    margin-top: 33px;
+    height: 200px;
+  }
+
+  section {
+    height: 480px;
+    overflow: hidden;
+  }
+  .startscreen {
+    text-align: center;
+    height: 480px;
+    width: 100vw;
+    background-image: url(http://static.ekstrabladet.dk/redaktioneludvikling/data/graphics/2016/Fodboldlogos/background/transferday_bg-4.jpeg);
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    z-index: 22;
+    height: 480px;
+  }
+  .centerpoint {
+    top: 335px;
+  }
+  .startscreen p {
+    margin-top: 0;
+  }
+  .nametag {
+    text-align: center;
+    top: 424px;
+  }
+  .pointcenter {
+    width: 100px;
+    height: 100px;
+  }
+  .pointcenter p:first-child {
+    font-size: 45px;
+  }
+  .cluetag {
+    transform: translate3d(-50,0,0);
+    font-size: 15px;
+  }
+
+  .cluetag p{
+    width: 115px;
+
+  }
+  .clue-start{
+    left:70px;
+    transform: scale(0.1);
+  }
+  .clue-mid {
+    transform: scale(1);
+    left: 0;
+    opacity: 1;
+    top: -20px;
+    transition: 0.5s ease;
+  }
+  .clue-end-1 {
+    left: -80px;
+    transform: scale(0.7);
+    opacity: 1;
+    top: 0;
+    transition: 0.5s ease;
+  }
+
+  .clue-leave {
+    left: -500px;
+    transform: scale(0.7);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+  .clue-end {
+    left: -145px;
+    position: absolute;
+    transform: scale(0.7);
+    opacity: 1;
+    transition: 0.5s ease;
+  }
+
+}
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
+/* ----------- iPhone 5 and 5S ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  html,body{
+    width:100vw;
+    overflow-x: hidden;
+  }
+  .start-text{
+    font-size:15px;
+  }
+  .holder {
+    transform: translate3d(10px,0,0);
+    margin-top:15px;
+  }
+  .timer div {
+    width: 23%;
+  }
+  #firstscreen {
+    background-image: url(http://static.ekstrabladet.dk/redaktioneludvikling/data/graphics/2016/Fodboldlogos/background/transferday_bg-4.jpeg);
+    background-size: cover !important;
+    height: 480px;
+  }
+  #endscreen {
+    background-image: url(http://static.ekstrabladet.dk/redaktioneludvikling/data/graphics/2016/Fodboldlogos/background/transferday_bg-4.jpeg);
+  }
+  .cluebox {
+    height: 100px;
+    width: 100px;
+    margin: 50px 0;
+    transition: 1s linear;
+    opacity: 1;
+    top: 0;
+  }
+
+  .clue-container {
+    margin-top: 33px;
+    height: 200px;
+  }
+
+  section {
+    height: 480px;
+    overflow: hidden;
+  }
+  .startscreen {
+    text-align: center;
+    height: 480px;
+    width: 100vw;
+    background-image: url(http://static.ekstrabladet.dk/redaktioneludvikling/data/graphics/2016/Fodboldlogos/background/transferday_bg-4.jpeg);
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    z-index: 22;
+    height: 480px;
+  }
+  .centerpoint {
+    top: 335px;
+  }
+  .startscreen p {
+    margin-top: 0;
+  }
+  .nametag {
+    text-align: center;
+    top: 424px;
+  }
+  .pointcenter {
+    width: 100px;
+    height: 100px;
+  }
+  .pointcenter p:first-child {
+    font-size: 45px;
+  }
+  .cluetag {
+    transform: translate3d(-50,0,0);
+    font-size: 15px;
+  }
+
+  .cluetag p{
+    width: 115px;
+
+  }
+
+  .clue-mid {
+    transform: scale(1);
+    left: 0;
+    opacity: 1;
+    top: -20px;
+    transition: 0.5s ease;
+  }
+  .clue-end-1 {
+    left: -80px;
+    transform: scale(0.7);
+    opacity: 1;
+    top: 0;
+    transition: 0.5s ease;
+  }
+
+  .clue-leave {
+    left: -500px;
+    transform: scale(0.7);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+  .clue-end {
+    left: -145px;
+    position: absolute;
+    transform: scale(0.7);
+    opacity: 1;
+    transition: 0.5s ease;
+  }
+}
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
+/* ----------- iPhone 6 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    html,body{
+      width:100vw;
+      overflow-x: hidden;
+    }
+    .start-text{
+      font-size:15px;
+    }
+    .holder {
+      transform: translate3d(10px,0,0);
+      margin-top:15px;
+    }
+    .timer div {
+      width: 23%;
+    }
+    #firstscreen {
+      background-image: url(http://static.ekstrabladet.dk/redaktioneludvikling/data/graphics/2016/Fodboldlogos/background/transferday_bg-4.jpeg);
+      background-size: cover !important;
+      height: 480px;
+    }
+    #endscreen {
+      background-image: url(http://static.ekstrabladet.dk/redaktioneludvikling/data/graphics/2016/Fodboldlogos/background/transferday_bg-4.jpeg);
+    }
+    .cluebox {
+      height: 100px;
+      width: 100px;
+      margin: 50px 0;
+      transition: 1s linear;
+      opacity: 1;
+      top: 0;
+    }
+    .clue-container {
+      margin-top: 33px;
+      height: 200px;
+    }
+
+    section {
+      height: 480px;
+      overflow: hidden;
+    }
+    .startscreen {
+      text-align: center;
+      height: 480px;
+      width: 100vw;
+      background-image: url(http://static.ekstrabladet.dk/redaktioneludvikling/data/graphics/2016/Fodboldlogos/background/transferday_bg-4.jpeg);
+      background-size: cover;
+      position: absolute;
+      left: 0;
+      z-index: 22;
+      height: 480px;
+    }
+    .centerpoint {
+      top: 335px;
+    }
+    .startscreen p {
+      margin-top: 0;
+    }
+    .nametag {
+      text-align: center;
+      top: 424px;
+    }
+    .pointcenter {
+      width: 100px;
+      height: 100px;
+    }
+    .pointcenter p:first-child {
+      font-size: 45px;
+    }
+    .cluetag {
+      transform: translate3d(-50,0,0);
+      font-size: 15px;
+    }
+
+    .cluetag p{
+      width: 115px;
+
+    }
+
+    .clue-mid {
+      transform: scale(1);
+      left: 0;
+      opacity: 1;
+      top: -20px;
+      transition: 0.5s ease;
+    }
+    .clue-end-1 {
+      left: -80px;
+      transform: scale(0.7);
+      opacity: 1;
+      top: 0;
+      transition: 0.5s ease;
+    }
+
+    .clue-leave {
+      left: -500px;
+      transform: scale(0.7);
+      position: absolute;
+      opacity: 0;
+      transition: 0.5s ease;
+    }
+    .clue-end {
+      left: -145px;
+      position: absolute;
+      transform: scale(0.7);
+      opacity: 1;
+      transition: 0.5s ease;
+    }
+}
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
+/* ----------- iPhone 6+ ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+
+    html,body{
+      width:100vw;
+      overflow-x: hidden;
+    }
+    .start-text{
+      font-size:15px;
+    }
+    .holder {
+      transform: translate3d(10px,0,0);
+      margin-top:15px;
+    }
+    .timer div {
+      width: 23%;
+    }
+    #firstscreen {
+      background-image: url(http://static.ekstrabladet.dk/redaktioneludvikling/data/graphics/2016/Fodboldlogos/background/transferday_bg-4.jpeg);
+      background-size: cover !important;
+      height: 480px;
+    }
+    #endscreen {
+      background-image: url(http://static.ekstrabladet.dk/redaktioneludvikling/data/graphics/2016/Fodboldlogos/background/transferday_bg-4.jpeg);
+    }
+    .cluebox {
+      height: 100px;
+      width: 100px;
+      margin: 50px 0;
+      transition: 1s linear;
+      opacity: 1;
+      top: 0;
+    }
+    .clue-container {
+      margin-top: 33px;
+      height: 200px;
+    }
+
+    section {
+      height: 480px;
+      overflow: hidden;
+    }
+    .startscreen {
+      text-align: center;
+      height: 480px;
+      width: 100vw;
+      background-image: url(http://static.ekstrabladet.dk/redaktioneludvikling/data/graphics/2016/Fodboldlogos/background/transferday_bg-4.jpeg);
+      background-size: cover;
+      position: absolute;
+      left: 0;
+      z-index: 22;
+      height: 480px;
+    }
+    .centerpoint {
+      top: 335px;
+    }
+    .startscreen p {
+      margin-top: 0;
+    }
+    .nametag {
+      text-align: center;
+      top: 424px;
+    }
+    .pointcenter {
+      width: 100px;
+      height: 100px;
+    }
+    .pointcenter p:first-child {
+      font-size: 45px;
+    }
+    .cluetag {
+      transform: translate3d(-50,0,0);
+      font-size: 15px;
+    }
+    .cluetag p{
+      width: 115px;
+
+    }
+    .clue-mid {
+      transform: scale(1);
+      left: 0;
+      opacity: 1;
+      top: -20px;
+      transition: 0.5s ease;
+    }
+    .clue-end-1 {
+      left: -80px;
+      transform: scale(0.7);
+      opacity: 1;
+      top: 0;
+      transition: 0.5s ease;
+    }
+    .clue-leave {
+      left: -500px;
+      transform: scale(0.7);
+      position: absolute;
+      opacity: 0;
+      transition: 0.5s ease;
+    }
+    .clue-end {
+      left: -145px;
+      position: absolute;
+      transform: scale(0.7);
+      opacity: 1;
+      transition: 0.5s ease;
+    }
+}
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {}
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {}
+/* ----------- iPad mini ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+
+    html,body{
+      width:100%;
+      overflow-x: hidden;
+    }
+    .holder {
+      transform: translate3d(-95px,0,0);
+      margin-top:15px;
+    }
+    .timer div {
+      width: 23%;
+    }
+    #firstscreen {
+      background-image: url(http://static.ekstrabladet.dk/redaktioneludvikling/data/graphics/2016/Fodboldlogos/background/transferday_bg-4.jpeg);
+      background-size: cover !important;
+      height: 480px;
+    }
+    #endscreen {
+      background-image: url(http://static.ekstrabladet.dk/redaktioneludvikling/data/graphics/2016/Fodboldlogos/background/transferday_bg-4.jpeg);
+    }
+    .cluebox {
+      height: 100px;
+      width: 100px;
+      margin: 50px 0;
+      transition: 1s linear;
+      opacity: 1;
+      top: 0;
+    }
+    .clue-container {
+      margin-top: 33px;
+      height: 200px;
+    }
+    .clue-mid {
+      transform: scale(1);
+      left:0px;
+      opacity: 1;
+      top: -6px;
+      transition: 2s ease-out;
+    }
+    .clue-end {
+      left:-145px;
+      position: absolute;
+      transform: scale(0.7);
+      opacity: 1;
+      transition: 1.5s ease;
+    }
+    .clue-end-1{
+      left:-80px;
+      transform: scale(0.7);
+      opacity:1;
+      top:-0px;
+      transition: 1.5s ease-in;
+    }
+    .clue-leave{
+      left:-500px;
+      transform: scale(0.7);
+      position: absolute;
+      opacity:0;
+      transition: 1.5s ease;
+    }
+    section {
+      height: 480px;
+      overflow: hidden;
+    }
+    .startscreen {
+      text-align: center;
+      height: 480px;
+      width: 100vw;
+      background-image: url(http://static.ekstrabladet.dk/redaktioneludvikling/data/graphics/2016/Fodboldlogos/background/transferday_bg-4.jpeg);
+      background-size: cover;
+      position: absolute;
+      left: 0;
+      z-index: 22;
+      height: 480px;
+    }
+    .centerpoint {
+      top: 335px;
+    }
+    .startscreen p {
+      margin-top: 0;
+    }
+    .nametag {
+      text-align: center;
+      top: 424px;
+    }
+    .pointcenter {
+      width: 100px;
+      height: 100px;
+    }
+    .pointcenter p:first-child {
+      font-size: 45px;
+    }
+    .cluetag {
+      transform: translate3d(-50,0,0);
+      font-size: 15px;
+    }
+
+    .cluetag p{
+      width: 115px;
+
+    }
+    .clue-start4 {
+      transform: translate3d(190px,0,0);
+    }
+    .clue-mid {
+      transform: scale(1);
+      left: 0;
+      opacity: 1;
+      top: -20px;
+      transition: 2s ease;
+    }
+    .clue-end-1 {
+      left: -80px;
+      transform: scale(0.7);
+      opacity: 1;
+      top: 0;
+      transition: 1.5s ease;
+    }
+    .clue-leave {
+      left: -500px;
+      transform: scale(0.7);
+      position: absolute;
+      opacity: 0;
+      transition: 1.5s ease;
+    }
+    .clue-end {
+      left: -145px;
+      position: absolute;
+      transform: scale(0.7);
+      opacity: 1;
+      transition: 1.5s ease;
+    }
+}
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {}
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {}
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+
+    html,body{
+      width:100vw;
+      overflow-x: hidden;
+    }
+    .holder {
+      transform: translate3d(-90px,0,0);
+      margin-top:15px;
+    }
+    .timer div {
+      width: 23%;
+    }
+    #firstscreen {
+      background-image: url(http://static.ekstrabladet.dk/redaktioneludvikling/data/graphics/2016/Fodboldlogos/background/transferday_bg-4.jpeg);
+      background-size: cover !important;
+      height: 480px;
+    }
+    #endscreen {
+      background-image: url(http://static.ekstrabladet.dk/redaktioneludvikling/data/graphics/2016/Fodboldlogos/background/transferday_bg-4.jpeg);
+    }
+    .cluebox {
+      height: 100px;
+      width: 100px;
+      margin: 50px 0;
+      transition: 1s linear;
+      opacity: 1;
+      top: 0;
+    }
+    .clue-container {
+      margin-top: 33px;
+      height: 200px;
+    }
+    .clue-mid {
+      transform: scale(1);
+      left:0px;
+      opacity: 1;
+      top: -6px;
+      transition: 2s ease-out;
+    }
+    .clue-end {
+      left:-145px;
+      position: absolute;
+      transform: scale(0.7);
+      opacity: 1;
+      transition: 1.5s ease;
+    }
+    .clue-end-1{
+      left:-80px;
+      transform: scale(0.7);
+      opacity:1;
+      top:-0px;
+      transition: 1.5s ease-in;
+
+    }
+    .clue-leave{
+      left:-500px;
+      transform: scale(0.7);
+      position: absolute;
+      opacity:0;
+      transition: 1.5s ease;
+    }
+    section {
+      height: 480px;
+      overflow: hidden;
+    }
+    .startscreen {
+      text-align: center;
+      height: 480px;
+      width: 100vw;
+      background-image: url(http://static.ekstrabladet.dk/redaktioneludvikling/data/graphics/2016/Fodboldlogos/background/transferday_bg-4.jpeg);
+      background-size: cover;
+      position: absolute;
+      left: 0;
+      z-index: 22;
+      height: 480px;
+    }
+    .centerpoint {
+      top: 335px;
+    }
+    .startscreen p {
+      margin-top: 0;
+    }
+    .nametag {
+      text-align: center;
+      top: 424px;
+    }
+    .pointcenter {
+      width: 100px;
+      height: 100px;
+    }
+    .pointcenter p:first-child {
+      font-size: 45px;
+    }
+    .cluetag {
+      transform: translate3d(-50,0,0);
+      font-size: 15px;
+    }
+
+    .cluetag p{
+      width: 115px;
+
+    }
+    .clue-start4 {
+      transform: translate3d(190px,0,0);
+    }
+    .clue-mid {
+      transform: scale(1);
+      left: 0;
+      opacity: 1;
+      top: -20px;
+      transition: 2s ease;
+    }
+    .clue-end-1 {
+      left: -80px;
+      transform: scale(0.7);
+      opacity: 1;
+      top: 0;
+      transition: 1.5s ease;
+    }
+    .clue-leave {
+      left: -500px;
+      transform: scale(0.7);
+      position: absolute;
+      opacity: 0;
+      transition: 1.5s ease;
+    }
+    .clue-end {
+      left: -145px;
+      position: absolute;
+      transform: scale(0.7);
+      opacity: 1;
+      transition: 1.5s ease;
+    }
+}
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {}
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {}
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    html,body{
+      width:100vw;
+      overflow-x: hidden;
+    }
+    .holder {
+      -webkit-transform: translate3d(-100px,0,0);
+      transform: translate3d(-90px,0,0);
+      margin-top:15px;
+    }
+    .timer div {
+      width: 23%;
+    }
+    #firstscreen {
+      background-image: url(http://static.ekstrabladet.dk/redaktioneludvikling/data/graphics/2016/Fodboldlogos/background/transferday_bg-4.jpeg);
+      background-size: cover !important;
+      height: 480px;
+    }
+    #endscreen {
+      background-image: url(http://static.ekstrabladet.dk/redaktioneludvikling/data/graphics/2016/Fodboldlogos/background/transferday_bg-4.jpeg);
+    }
+    .cluebox {
+      height: 100px;
+      width: 100px;
+      margin: 50px 0;
+      transition: 1s linear;
+      opacity: 1;
+      top: 0;
+    }
+
+    .clue-container {
+      margin-top: 33px;
+      height: 200px;
+    }
+    .clue-mid {
+      transform: scale(1);
+      left:0px;
+      opacity: 1;
+      top: -6px;
+      transition: 2s ease-out;
+    }
+    .clue-end {
+      left:-145px;
+      position: absolute;
+      transform: scale(0.7);
+      opacity: 1;
+      transition: 1.5s ease;
+    }
+    .clue-end-1{
+      left:-80px;
+      transform: scale(0.7);
+      opacity:1;
+      top:-0px;
+      transition: 1.5s ease-in;
+
+    }
+    .clue-leave{
+      left:-500px;
+      transform: scale(0.7);
+      position: absolute;
+      opacity:0;
+      transition: 1.5s ease;
+    }
+    section {
+      height: 480px;
+      overflow: hidden;
+    }
+    .startscreen {
+      text-align: center;
+      height: 480px;
+      width: 100vw;
+      background-image: url(http://static.ekstrabladet.dk/redaktioneludvikling/data/graphics/2016/Fodboldlogos/background/transferday_bg-4.jpeg);
+      background-size: cover;
+      position: absolute;
+      left: 0;
+      z-index: 22;
+      height: 480px;
+    }
+    .centerpoint {
+      top: 335px;
+    }
+    .startscreen p {
+      margin-top: 0;
+    }
+    .nametag {
+      text-align: center;
+      top: 424px;
+    }
+    .pointcenter {
+      width: 100px;
+      height: 100px;
+    }
+    .pointcenter p:first-child {
+      font-size: 45px;
+    }
+    .cluetag {
+      transform: translate3d(-50,0,0);
+      font-size: 15px;
+    }
+
+    .cluetag p{
+      width: 115px;
+
+    }
+    .clue-start4 {
+      transform: translate3d(190px,0,0);
+    }
+    .clue-mid {
+      transform: scale(1);
+      left: 0;
+      opacity: 1;
+      top: -20px;
+      transition: 2s ease;
+    }
+    .clue-end-1 {
+      left: -80px;
+      transform: scale(0.7);
+      opacity: 1;
+      top: 0;
+      transition: 1.5s ease;
+    }
+    .clue-leave {
+      left: -500px;
+      transform: scale(0.7);
+      position: absolute;
+      opacity: 0;
+      transition: 1.5s ease;
+    }
+    .clue-end {
+      left: -145px;
+      position: absolute;
+      transform: scale(0.7);
+      opacity: 1;
+      transition: 1.5s ease;
+    }
+}
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {}
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {}

@@ -1,0 +1,467 @@
+p {
+
+}
+
+html,
+body {
+  // background: url("../img/kode-baggrund.png");
+  background-repeat: no-repeat;
+  background-color: black;
+  width: 100% !important;
+  padding-right: 2px;
+  overflow-x: hidden !important;
+
+}
+html{
+  overflow-x: hidden;
+
+}
+.bodydiv {
+  background: url("../img/kode-baggrund.png");
+  background-repeat: no-repeat;
+  background-color: black;
+  width: 100% !important;
+  padding-right: 2px;
+  overflow: hidden !important;
+}
+.fblogo {
+  margin-top:5px;
+  margin-left:40px;
+  margin-right:40px;
+  margin-bottom:10px;
+}
+.disclaimer{
+  width:100%;
+  line-height: 30px;
+  background-color: red;
+  position: relative;
+    top: 20px;
+  p{
+    margin:0;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  color: white;
+}
+li {
+  list-style-type: none;
+  color: white;
+  border-bottom: solid 4px #36a9dd;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  /* optional */
+}
+ul li {
+  display: table-cell;
+  width: auto;
+  text-align: left;
+}
+ul >:first-child {
+  border-top: solid 2px #36a9dd;
+  border-bottom: none;
+}
+footer {
+  background: #c7ccd0;
+  color: #474747;
+  clear: both;
+  line-height: 1.8em;
+  padding-left: 4px;
+  bottom: 0;
+  padding-left: 10px;
+  position: absolute;
+  width: 100%;
+  p {
+    color: #474747;
+    margin: 0;
+  }
+}
+a {
+  color: lightgreen;
+}
+.addcover{
+  background-color: black;
+  width: 100%;
+  padding-bottom: 9px;
+  z-index: 201;
+  position: relative;
+  display:inline-block;
+}
+.mobilsite {
+  margin: 10px;
+  text-align: center;
+}
+.notices{
+  margin-top:40px !important;
+}
+.warningbox {
+  border-top: solid 2px #36a9dd;
+}
+.addbox {
+  background-color: gray;
+  margin: 23px 0 0 0;
+  height: 110px;
+  overflow: hidden;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  float:left;
+  border: solid 2px black;
+  div {
+    padding: 1px;
+  }
+  h2,
+  h3 {
+    color: black;
+    line-height: 20px;
+    margin:2px;
+  }
+  h3 {
+    margin-left: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+.knap {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.container {
+  top: 124px;
+  width: 100%;
+}
+.headers {
+  width: 100%;
+}
+.hashtagfri {
+  font-size: 66px;
+  font-weight: 900;
+  display: inline;
+}
+.lock {
+  width: 65px;
+  display: inline;
+  margin-right: 5px;
+  margin-top: 18px;
+  display: inline;
+  vertical-align: bottom;
+}
+.wifilogo {
+  max-width: 40%;
+  margin:2px 0 10px;
+}
+.overskrift {
+  font-size: 30px;
+  font-weight: 900;
+  width: 100%;
+}
+.headerDiv {
+  display: inline-block;
+  width: 100%;
+  padding: 0 40px;
+  position: relative;
+}
+.content {
+  margin: 10px 40px 0px;
+  overflow: auto;
+  border: solid #36a9dd 3px;
+  background-color: black;
+  overflow-x: auto;
+}
+.tjek {
+  float: left;
+  font-size: 30px;
+  font-weight: 900;
+}
+.textwrap {
+  display: block;
+  top: -89px;
+  position: relative;
+  margin-left: 140px;
+}
+#textbox {
+  width: 100%;
+  min-height: 171px;
+  background-color: black;
+  p {
+    margin: 0;
+  }
+  #spinner {
+    height: 382px;
+    position: relative;
+    z-index: 200;
+  }
+}
+.planet {
+  left: 20px;
+  width: 111px;
+}
+#textwrapper {
+  display: none;
+  width: 100%;
+  p {
+    margin: 10px;
+  }
+}
+.startpage {
+  position: relative;
+  top: 0;
+  margin: 10px 10px 0 10px;
+}
+
+.eblogo {
+  margin-right: 40px;
+  float: right;
+}
+.fblogoleft {
+  text-align: right;
+  background-color: #3a5998;
+  padding: 17px 0 18px;
+  text-align: center;
+  vertical-align: bottom;
+  margin-bottom: 0;
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+.fblogoright {
+  text-align: right;
+  background-color: #d7e0eb;
+  padding: 18px 0 17px;
+  text-align: center;
+  vertical-align: bottom;
+  margin-bottom: 0;
+}
+.fblogoinnerright {
+  color: black;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #eef0f7;
+  text-align: center;
+  width: 90%;
+  border: 2px solid #b2bbcf;
+  img {
+    margin-right: 5px;
+    width: 20px;
+    margin-bottom: 5px;
+    vertical-align: bottom;
+    font-family: arial;
+  }
+}
+a {
+  text-decoration: none !important;
+}
+.fblogoinnerright:hover {
+  border: 3px solid #b2bbcf;
+}
+.mailMe {
+  width: 200px !important;
+  margin-left: auto;
+  margin-right: auto;
+  input {
+    height: 44px;
+    display: inline-block;
+  }
+  button {
+    display: inline-block;
+  }
+}
+.glyph{
+  text-align: center;
+  -webkit-animation-name: bottomarrow; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 1.5s; /* Chrome, Safari, Opera */
+  animation-name: bottomarrow;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+  -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+  animation-iteration-count: infinite;
+  }
+@media (max-width: 688px) {
+
+
+  .fblogoleft {
+    height: 76px;
+    font-size: 15px;
+    line-height: 17px;
+    p {
+      margin-top: 8px;
+      margin-bottom: 0;
+    }
+  }
+  .fblogoright {
+    padding: 14px;
+    height: 76px;
+    padding-top: 28px;
+    font-size: 13px;
+  }
+  .content {
+    /*	 width: 100%;
+*/
+    background-color: black;
+    border: solid #36a9dd 3px;
+    padding: 0;
+    margin: 5px;
+    margin-top:10px;
+  }
+
+
+  .logo {
+    margin: 0 -5px;
+  }
+  .fblogo {
+    margin: auto;
+  }
+  .hashtagfri {
+    font-size: 50px;
+  }
+  .mobilsite {
+    margin: 10px;
+    text-align: center;
+  }
+  .addbox:first-child{
+  }
+  .addbox {
+    background-color: gray;
+    margin: 0px;
+    margin-top: 32px;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    z-index: 200;
+    position: relative;
+    div {
+      padding: 1px;
+    }
+    .textwrap{
+      top: -87px;
+      margin-left: 125px;
+
+    }
+    h2,
+    h3 {
+      color: black;
+    }
+    h3 {
+    margin-left: 5px;
+    font-size: 17px;
+    line-height: 16px;
+    font-weight: 900;
+    }
+    h2 {
+      font-size: 15px;
+      line-height: 13px;
+    }
+  }
+  .overskrift {
+    font-size: 30px;
+    font-weight: 900;
+    margin-left:5px;
+  }
+  .headerDiv {
+    padding: 0;
+  }
+  .knap {
+        margin-top: 12px;
+  }
+  .lock {
+    width: 40px;
+    display: inline;
+    margin-right: 0;
+    margin-top: 18px;
+    display: inline;
+    vertical-align: bottom;
+    margin-left: 5px;
+  }
+}
+
+@media(min-width:435px) and (max-width:688px) {
+  .overskrit{
+    margin-left: 6px;
+
+  }
+  #spinner{
+        height: 380px !important;
+  }
+  .fblogoleft {
+    p {
+      margin-top: 8px !important;
+    }
+  }
+  .content {
+    /* width: 100%; */
+    background-color: black;
+    border: solid #36a9dd 3px;
+    padding: 0;
+    margin: 10px 3px 0 5px;
+    overflow:hidden;
+}
+  .notices{
+    margin-top: 63px !important;
+  }
+  .fblogo{
+        margin: 5px;
+  }
+
+}
+
+@media (max-width: 420px) {
+
+
+  .addbox{
+    height: 87px;
+    margin:0px;
+    width: 100%;
+  }
+  .fblogoleft {
+    p {
+      margin-top: 5px;
+      margin: 10px;
+    }
+  }
+  .notices{
+    margin-top:10px !important;
+  }
+
+  .hashtagfri {
+    font-weight: 900;
+    left: 105px;
+    font-size: 35px;
+    vertical-align: bottom;
+  }
+  .lock {
+    width: 25px;
+  }
+  .addcover{
+    padding-bottom: 0px;
+    margin-top: 32px;
+
+  }
+  .fblogo{
+        margin: 5px;
+  }
+  #textbox {
+
+    #spinner {
+    height: 323px;
+    position: relative;
+    }
+  }
+
+}

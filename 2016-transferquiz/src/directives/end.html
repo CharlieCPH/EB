@@ -1,0 +1,51 @@
+<section>
+  <div class="end">
+    <div class="total" ng-class="{pointsuccess: point >= '5', pointfail: point <= 4}">
+      <p>
+        Du fik
+      </p>
+      <h3>
+        {{point}}
+      </h3>
+      <p>
+        point
+      </p>
+    </div>
+
+    <span class="text-box">
+      <div class="">
+
+        <h2>
+          {{rightanswer}}
+          rigtige /
+          {{wronganswer}}
+          forkerte</h2>
+        <p ng-show="point<=15" style="text-align:left;">
+          DU HAR BRUG FOR TRÆNING …
+          <br>Din viden om transfer kan ikke bruges til meget mere end seriebold. Lad være med at dele – det er for pinligt.
+        </p>
+        <p ng-show="point >= 16 && point<= 30">
+          GOD GRUNDFORM – MEN LANGTFRA I MÅL
+          <br>
+          Din viden om transfers er ikke til en managerpost – endnu! Der skal arbejdes stenhårdt i vinterpausen, hvis det skal blive til noget.
+        </p>
+        <p ng-show="point >= 31 && point<= 50">
+          DU NÆRMER DIG SUPERLIGAEN!
+          <br>Din viden om transfers er ret omfattende. Måske er der et ledigt managersæde i en Superliga-klub?
+        </p>
+        <p ng-show="point >= 51">
+          TRANSFERMESTEREN! MESTEREN! MESTEREN! MESTEREN!
+          <br>
+          Har de ringet fra London? Manchester? Madrid? Din viden om transfers er i hvert fald imponerende.
+        </p>
+      </div>
+
+    </span>
+    <span class="buttonsize">
+    <span class="options" onClick="window.location.reload()">
+      Prøv igen
+    </span>
+    </span>
+  </div>
+
+</section>

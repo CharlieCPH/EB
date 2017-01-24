@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html class='ng-app' lang="en" ng-app="App">
+  <head>
+    <meta charset="utf-8">
+    <title>Friadgang</title>
+    <meta content="width=device-width,initial-scale=1" name="viewport"/>
+    <meta content="" name="description">
+    <meta content="ekstrabladet.dk - redaktionelle udviklings team" name="author">
+    <meta content="noindex" name="robots"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">    <link href="http://interactive.ekstrabladet.dk/helpers/css/ebstyles.css" rel="stylesheet" type="text/css">
+    <link href="dist/frontend.css" rel="stylesheet" type="text/css">
+    <script src="http://interactive.ekstrabladet.dk/helpers/bower_components/angular/angular.min.js"></script>
+    <script src="http://ekstrabladet.dk/template/v5-6/shared/js/modules/comscore/comscore.js" type="text/javascript"></script>
+    <script>  ebComscore.initializeComscore('16785783', 'jppol', 'ebmedier', 'ekstrabladet') </script>
+  </head>
+
+  <body class="bodydiv" ng-controller="AppCtrl" style="margin:0;display:inline-block;">
+
+    <div class="headerDiv">
+      <div class="overskrift">
+        <img class="lock" src="http://interactive.ekstrabladet.dk/features/2015-friadgang/img/lock.png">
+        <p class="hashtagfri">#FRIADGANG
+        </p>
+<!--                 <p class="underoverskrift">Har du lagt privatlivet frit ud?</p> -->
+<!--       <p class="tjek">TJEK DIN IP</p>  -->
+      </div>
+    </div>
+    <div class="content">
+      <div id="textbox" ng-hide="mobileSwitcher">
+        <div class="startpage" ng-hide="switcher==3">
+          <p><strong style="color:red;">Ekstra Bladet</strong> har udviklet et program, som kan afsløre, om din computer giver uønskede gæster fri adgang til din printer, netværksharddisk eller andre elektroniske enheder.<br>
+            <span style="color:lightgreen;">Test dit lokalnetværk her.</span></p>
+          <button class="knap btn btn-primary " onclick="ebComscore.sendComscoreNonPageview({ 'le_type': 'webapp', 'le_name':'ebinteractive', 'le_label':'start_network_check'});" ng-click="toggle();" style="margin-bottom: 15px !important;">Bliver jeg klædt af på nettet?</button>
+          <p class="notices" style="text-align: center;"><strong>Bemærk:</strong> Testen er kun vejledende, men giver et godt fingerpeg om din it-sikkerhed.</p>
+        </div>
+        <img id="spinner" ng-if="switcher==3" src="http://interactive.ekstrabladet.dk/features/2015-friadgang/img/kode-spinner.gif">
+        <div id="textwrapper">
+          <p ng-if="data.ports.length <= 1">
+            <strong style="color:red;">Ekstrabladet</strong>
+            har ikke registreret et potentielt sikkerhedshul på IP-adressen:
+            <span style="color:#36a9dd;">{{data.ip}}</span>
+            <br>
+            <br>
+            Testen er kun vejledende:</p>
+          <div class="lists" ng-if="data.ports.length >= 1">
+            <p>
+              <strong style="color:red;">Ekstra Bladet</strong>
+              har registreret et potentielt sikkerhedshul på din IP-adresse, men måske er alt i orden alligevel.
+              <br>Vores undersøgelse gav følgende svar, som du kan bruge til tjekke din it-sikkerhed:
+            </p>
+            <ul ng-repeat="ports in data.ports">
+              <li>
+                <p>
+                  <span ng-show="{{ports.type==0}} || {{ports.type==NULL}}"></span>
+                  <span ng-show="{{ports.type==1}}">Webcam</span>
+                  <span ng-show="{{ports.type==2}}">Filserver</span>
+                  <span ng-show="{{ports.type==3}}">Printer</span>
+                  {{data.ports[$index].report}}
+                  på
+                  <a href="http://{{data.ip}}:{{ports.port}}">http://{{data.ip}}:{{ports.port}}</a>
+                  <br>
+                </p>
+              </li>
+            </ul>
+            <div class="warningbox">
+              <p>
+                <strong style="color:red;">Sådan tjekker du, om alt er ok
+                </strong><br>
+                Du skal bruge en computer, som ikke er på dit hjemmenetværk. Det kan
+                være fra din telefon, din nabos internet eller adgangen fra biblioteket.
+                Tast IP-adressen (for eksempel http://123.456.789:8080) ind i
+                internetbrowseren, og se hvad der popper op. Hvis du f.eks. finder dit
+                overvågningskamera, når du prøver fra din mobiltelefon, så tjek, om det
+                er beskyttet med en kode.              <p>
+                <strong style="color:red;">Testen er kun vejledende</strong>
+                <br>
+                - Vores undersøgelse af dansk internetsikkerhed blev lavet tidligere i år. Du kan altså have fået et hul i sikkerheden, selv om vi ikke har det registreret.</p>
+              <p>
+                - Vi har undersøgt meget, men ikke alt. Ligger dit udstyr på en 'special-port', har vi ikke undersøgt det.</p>
+              <p>
+                - Selv om du er registreret med et potentielt sikkerhedshul, kan alting være i orden.</p>
+              <p>
+                - Det kan være, at du har udstyr koblet til internettet, som der skal være adgang til. Nogle internetudbydere leverer f.eks. routere og modemmer, som skal være åbne, så udbyderen kan få adgang og løbende opdatere udstyret.</p>
+            </div>
+            <p>- Send dine resultater til din mail for at teste dem på et andet netværk:</p>
+            <div class="mailMe">
+              <a class="btn btn-success knap " onclick="ebComscore.sendComscoreNonPageview({ 'le_type': 'webapp', 'le_name':'ebinteractive', 'le_label':'mail'});" href="mailto:?Subject=Ekstra%20Bladet%20-%20Fri%20Adgang%20-%20Mine%20sikkerhedshuller&amp;body={{mailStart}}{{mailContent}}{{mailEnd}}{{regards}}" style="margin-top: 7px !important;">Send til din e-mail</a>
+            </div>
+          </div>
+
+          <div>
+            <p>- Vi opfordrer dig til at følge rådene på denne side, så er du sikker på, at dit elektronikudstyr ikke giver fri adgang:</p>
+            <div class="addcover">
+              <div class="addbox">
+                <a onclick="ebComscore.sendComscoreNonPageview({ 'le_type': 'webapp', 'le_name':'ebinteractive', 'le_label':'guide_10_tips_til_it_sikkerhed'});" href="http://ekstrabladet.dk/a/5698949" target="_parent">
+                <img class="planet" src="http://interactive.ekstrabladet.dk/features/2015-friadgang/img/planet.png">
+                <div class="textwrap">
+                  <h3>Guide:</h3>
+                  <h2>10 tips til bedre IT-sikkerhed</h2>
+                </div>
+                </a>
+              </div>
+              </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="mobilsite" ng-show="mobileSwitcher">
+        <h2>Vigtigt!</h2>
+        <p>Testen fungerer kun på lokalnetværk. Husk at logge på via wi-fi.</p>
+        <img class="wifilogo" src="http://interactive.ekstrabladet.dk/features/2015-friadgang/img/wifi-icon.png">
+        <button class="btn btn-primary knap" ng-click="mobileSwitcher=false" type="button">Start</button>
+      </div>
+
+    </div>
+    <div class="fblogo" style="overflow-y:hidden;">
+      <a  onclick="ebComscore.sendComscoreNonPageview({ 'le_type': 'webapp', 'le_name':'ebinteractive', 'le_label':'fb-share'});" href="https://www.facebook.com/sharer/sharer.php?u=http://ekstrabladet.dk/nyheder/friadgang/test-dig-selv-nyt-vaerktoej-afsloerer-it-huller/5699013" target="_top">
+        <div class="col-xs-6 col-sm-8 fblogoleft">
+          <p>Del
+            <strong>Friadgang</strong>
+            på
+            <strong>Facebook</strong>
+          </p>
+        </div>
+      </a>
+      <span class="col-xs-6  col-sm-4 fblogoright ">
+        <a onclick="ebComscore.sendComscoreNonPageview({ 'le_type': 'webapp', 'le_name':'ebinteractive', 'le_label':'fb-like'});" href="https://www.facebook.com/ekstrabladet"  target="_top">
+          <span class="fblogoinnerright">
+            <img alt="" src="http://interactive.ekstrabladet.dk/features/2015-friadgang/img/fbthumb.png" style=" ">Synes godt om
+          </span>
+        </a>
+      </span>
+
+
+    </div>
+    <div style="text-align:center;">
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!-- <script src="analytics.js"></script> -->
+    <script src="app.js"></script>
+    <script src="../../helpers/js/client.js"></script>
+    <script src="http://b.scorecardresearch.com/c2/16785783/cs.js" type="text/javascript" />
+
+  </body>
+</html>

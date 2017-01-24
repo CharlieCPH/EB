@@ -1,0 +1,41 @@
+<section class="stadium last-section" ng-style="{'background-image': 'url(' + matchInfo.image + ')'}">
+  <h2>{{ matchInfo.stadium }}</h2>
+  <div class="">
+    <div class="icontext">
+      <i class="fa fa-users"></i>
+      <span>
+        <p>
+          <b>{{ matchInfo.stadiumSize }}</b><br>
+        </p>
+        <p>
+          Tilskuere
+        </p>
+      </span>
+    </div>
+
+    <div class="icontext">
+      <i class="fa fa-wrench"></i>
+      <span>
+        <p>
+          Opført i
+        </p>
+        <p>
+          <b>{{ matchInfo.constructed }}</b>
+        </p>
+      </span>
+    </div>
+
+    <div class="icontext">
+      <i class="fa fa-map-marker"></i>
+      <span>
+        <p>
+          <b>{{ matchInfo.city }}</b>
+        </p>
+        <p>
+          {{ matchInfo.contry }}
+        </p>
+      </span>
+    </div>
+  </div>
+</div>
+</section>
