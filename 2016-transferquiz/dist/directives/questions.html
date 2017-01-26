@@ -1,0 +1,34 @@
+<section>
+  <div clas="top">
+    <span class="page">
+      {{pageNumber}} / {{questions.length}}
+    </span>
+    <span class="point">
+      <p class="score">{{point}}</p>
+      <p class="text-point">
+        Point</p>
+    </span>
+  </div>
+
+  <clues></clues>
+
+  <div class="timer">
+    <span class="size">
+      <div>4 point</div>
+      <div>3 point</div>
+      <div>2 point</div>
+      <div>1 point</div>
+      <span id="progressbar" ng-style="{width:barWidth}"></span>
+    </span>
+  </div>
+  <div class="opt" ng-repeat="item in questions[pageNumber-1].options ">
+    <span class="buttonsize">
+
+    <span class="options" ng-click="answer(item.solution);"> {{item.name}}</span>
+  </span>
+  </div>
+  <!-- <span class="nav">
+    <a class="prev" href="#" ng-click="prevPage()">Forrige</a>
+    <a class="next" href="#" ng-click="nextPage()">Næste</a>
+  </span> -->
+</section>
